@@ -6,6 +6,7 @@
 // module     - info about current module (file)
 // process    - info about env where the program is being executed
 
+console.log(`File name is : ${__filename}`);
 console.log(__dirname)
 setInterval(() => {
   console.log('hello world')
